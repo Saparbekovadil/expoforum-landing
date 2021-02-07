@@ -1,0 +1,113 @@
+ :root {
+ 	--white: #f0dddd;
+ 	--green: #78fa78;
+ 	--light-green: #4ef580;
+ 	--dark-green: #036922;
+
+ 	--edil: white;/* --adil бул болгону маани гана эч кандай маани бербейт то есть аты гана*/
+ 	--adil:24px;
+
+ }
+	 
+ /*.title {
+	 font-family:Arial;
+	 background: red;
+ }
+} 
+.Adil {
+	color:blue;
+}
+#yellow {
+	color:blue; 
+}
+.Edil {
+	color:#B6AFAE;
+}
+комментарий
+span {
+	color: grey;
+}
+p {
+   color: yellow;
+}*/
+ .header {
+		background: yellow;
+		text-align: center; /*тексти центрга алып келет */
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+ }
+
+ .header ul {
+ 	width: 600px;
+ 	padding: 0;
+ 	margin: 0;
+ 	list-style: none;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ .container {
+ 	width: 1200px;
+ 	margin: 0 auto;
+}
+ 
+ .content {
+ 	    text-align: center;
+ 	    padding: 20px;
+ 	    max-width: 1200px;
+		margin: 0 auto;
+		height: 800px;  /*height ти соссуз жазыш керек контенткке(узундугу)*/
+ }
+
+ .main {
+ 	background: var(--dark-green);
+ 	font-family:Arial;
+ 	font-size:24px; /*размери*/
+ 	font-style:italic; /*стили же туздугу*/
+ 	font-weight:bold; /*жоондугу*/
+ }
+
+ .contacts-page {
+ 	background:#6E6FD4;
+ }
+  
+ .footer {
+		background: grey;
+		text-align: center;
+		padding: 20px;
+ }
+
+ .about-page {
+ 	background:#66CC71;
+ 	font-size:var(--adil);
+ 	color: var(--edil);
+ }
+ /*.blocks-group {
+	/*display: inline-block;*/
+	/*display: none;*/
+	/*display: flex;/*горизанталдык багытта чыгарат контентке жана блочный элементтерди строчный элементке озгортот*/
+	/*flex-direction: column;*/ /*вертикалдык багытта чыгарат контентке*/
+	/*height: 1000px;
+	justify-content: center;/*туурасын тендейт*/
+	/*align-items: center;/*узундугун тендейт(вертикалык багыттын)*/
+	/*align-items:flex-start; */ /*контенттин башына жайгаштырат*/
+	/*justify-content:space-between;*/
+	/*justify-content: space-around;
+	/*align-items:flex-end;*/  /*контенттин этегине жайгаштырат*/
+	/*flex-wrap:wrap; /* телефондорго ачылыш учун ушул тегди колдонобуз*/
+ /*}*/
+
+/*.item {
+	width: 300px;
+	height: 250px;
+	display:flex;
+	border: 1px solid; 
+}*/
+
+ body {
+		margin:0;
+}
+a {
+	text-decoration: none;
+}
